@@ -1,0 +1,20 @@
+# Data & evaluation
+pandas>=2.0
+numpy>=1.26
+scikit-learn>=1.4
+statsmodels>=0.14
+jinja2>=3.1.2  # required by pandas DataFrame.to_latex()
+
+# Encoder approach (ClimateBERT fine-tuning)
+torch>=2.2
+transformers>=4.40
+datasets>=2.19
+accelerate>=0.30
+
+# LLM approach (local Ollama + OpenAI API, both via the OpenAI client)
+openai>=1.30
+
+# Misc
+tqdm>=4.66
+matplotlib>=3.8
+seaborn>=0.13

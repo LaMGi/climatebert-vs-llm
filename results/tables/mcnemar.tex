@@ -1,0 +1,12 @@
+\begin{tabular}{llrrrrrrrr}
+\toprule
+run_a & run_b & n_overlap & n_a & n_b & statistic & p_value & delta_macro_f1 & ci_low & ci_high \\
+\midrule
+baseline & climatebert_seed42 & 517 & 270 & 1 & 265.033200 & 0.000000 & -0.752900 & -0.776000 & -0.729000 \\
+baseline & llm_ollama_llama3.1-8b_structured_1shot & 517 & 262 & 3 & 251.184900 & 0.000000 & -0.731100 & -0.756500 & -0.703300 \\
+baseline & llm_openai_gpt-6-luna_structured_0shot & 517 & 264 & 1 & 259.034000 & 0.000000 & -0.741600 & -0.765800 & -0.717300 \\
+climatebert_seed42 & llm_ollama_llama3.1-8b_structured_1shot & 517 & 10 & 20 & 2.700000 & 0.100300 & 0.021800 & -0.003100 & 0.046300 \\
+climatebert_seed42 & llm_openai_gpt-6-luna_structured_0shot & 517 & 11 & 17 & 0.892900 & 0.344700 & 0.011300 & -0.010900 & 0.033100 \\
+llm_ollama_llama3.1-8b_structured_1shot & llm_openai_gpt-6-luna_structured_0shot & 517 & 19 & 15 & 0.264700 & 0.606900 & -0.010500 & -0.036000 & 0.014800 \\
+\bottomrule
+\end{tabular}

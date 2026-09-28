@@ -1,0 +1,7 @@
+run_a,run_b,n_overlap,n_a,n_b,statistic,p_value,delta_macro_f1,ci_low,ci_high
+baseline,climatebert_seed42,517,270,1,265.0332,0.0,-0.7529,-0.776,-0.729
+baseline,llm_ollama_llama3.1-8b_structured_1shot,517,262,3,251.1849,0.0,-0.7311,-0.7565,-0.7033
+baseline,llm_openai_gpt-6-luna_structured_0shot,517,264,1,259.034,0.0,-0.7416,-0.7658,-0.7173
+climatebert_seed42,llm_ollama_llama3.1-8b_structured_1shot,517,10,20,2.7,0.1003,0.0218,-0.0031,0.0463
+climatebert_seed42,llm_openai_gpt-6-luna_structured_0shot,517,11,17,0.8929,0.3447,0.0113,-0.0109,0.0331
+llm_ollama_llama3.1-8b_structured_1shot,llm_openai_gpt-6-luna_structured_0shot,517,19,15,0.2647,0.6069,-0.0105,-0.036,0.0148
